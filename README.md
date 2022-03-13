@@ -18,14 +18,14 @@
 
 ## 2. List of sub-systems:
 1. **BB_HV** : This includes HV channel info for BB Spectrometer (i.e. BBCal, BBHodo, BBGEM, GRINCH).
-2. **SBS_HV** : This includes HV channel info for SBS Spectrometer (i.e. HCal etc.).
+2. **SBS_HV** : This includes HV channel info for SBS Spectrometer (i.e. HCal, et cetera).
 3. **LHRS_HV** : This includes HV channel info for LHRS.
 
 ## 3. Example execution: 
 To log HVs for BigBite spectrometer (BB_HV), one needs to do the following:
 > ./get_dictionary_and_siglist.sh **BB_HV** <br> 
 
-Check two make sure updated `BB_HV.dictionary` & `BB_HV.siglist` files exist. Then do, 
+Check to make sure updated `BB_HV.dictionary` & `BB_HV.siglist` files exist. Then do, 
 > ./HV_logging.sh **BB_HV**
 
 Now, a `BB_HV.results` file should be generated inside **Results** directory.
