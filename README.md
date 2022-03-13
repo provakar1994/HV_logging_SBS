@@ -9,12 +9,12 @@
 
 ## 1. How-to:
 1. Every time when there is a change in HV mapping for any sub-system, do:
-   > ./get_dictionary_and_siglist.sh <name_of_sub-system>
+   > ./get_dictionary_and_siglist.sh **<name_of_sub-system>**
 
 2. Check the Dictionary and Siglist directories to make sure the updated `.dictionary` and `.siglist` files are in place for all the sub-systems.
 
 3. Then to get the `.results` files for EPICS logging, do:
-   > ./HV_logging.sh <name_of_sub-system> 
+   > ./HV_logging.sh **<name_of_sub-system>** 
 
 ## 2. List of sub-systems:
 1. **BB_HV** : This includes HV channel info for BB Spectrometer (i.e. BBCal, BBHodo, BBGEM, GRINCH).
