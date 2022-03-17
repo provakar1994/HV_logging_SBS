@@ -1,4 +1,4 @@
-**HV_logger_SBS** repository contains the tools needed for the EPICS logging of HV information for all the detector sub-systems used in Jefferson Lab Hall A Super BigBite Collaboration (SBS) experiments. 
+**HV_logger_SBS** repository contains the tools needed for the EPICS logging of HV information for all the detector sub-systems used in Jefferson Lab Hall A Super BigBite Collaboration (SBS) experiments. The entire EPICS logging machinery for SBS experiments can be found at `/adaqfs/home/sbs-onl/logentry_scripts/`.
 
 ## Contents
 1. How-to
@@ -17,9 +17,9 @@
    > ./HV_logging.sh **<name_of_sub-system>** 
 
 ## 2. List of sub-systems:
-1. **BB_HV** : This includes HV channel info for BB Spectrometer (i.e. BBCal, BBHodo, BBGEM, GRINCH).
-2. **SBS_HV** : This includes HV channel info for SBS Spectrometer (i.e. HCal, et cetera).
-3. **LHRS_HV** : This includes HV channel info for LHRS.
+- **BB_HV** : This includes HV channel info for BB Spectrometer (i.e. BBCal, BBHodo, BBGEM, GRINCH).
+- **SBS_HV** : This includes HV channel info for SBS Spectrometer (i.e. HCal, et cetera).
+- **LHRS_HV** : This includes HV channel info for LHRS.
 
 ## 3. Example execution: 
 To log HVs for BigBite spectrometer (BB_HV), one needs to do the following:
